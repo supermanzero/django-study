@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8938de9f-6b8e-416b-a250-0e98b95bef8b" name="Default" comment="dj">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/test/search_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/test/search_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djgtest/admin.py" afterPath="$PROJECT_DIR$/djgtest/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djgtest/urls.py" afterPath="$PROJECT_DIR$/djgtest/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djgtest/view.py" afterPath="$PROJECT_DIR$/djgtest/view.py" />
+    <list default="true" id="8938de9f-6b8e-416b-a250-0e98b95bef8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django-study.iws" />
@@ -425,7 +419,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423447121059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dj">
+      <created>1423472329258</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1423472329258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
