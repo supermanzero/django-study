@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from view import current_datetime
+from view import *
 
 urlpatterns = patterns('',
     # Examples:
@@ -9,4 +9,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^[A-Z]{1,3}/$', current_datetime),
+    url(r'^$', search),
 )
