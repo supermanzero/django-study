@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{{ current_date|date:"F j,Y,h,m,s" }}
+
+<ul>
+{% for ars in ar reversed %}
+    <li>{{ forloop.counter }}:{{ ars|escape|linebreaks }}:{{ forloop.first }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
